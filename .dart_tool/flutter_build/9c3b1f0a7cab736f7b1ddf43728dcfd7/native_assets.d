@@ -1,0 +1,1 @@
+ C:\\Users\\Sriram\\Downloads\\urban_culture_app\\.dart_tool\\flutter_build\\9c3b1f0a7cab736f7b1ddf43728dcfd7\\native_assets.yaml: 

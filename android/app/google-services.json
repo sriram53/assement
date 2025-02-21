@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "109329048669",
+    "project_id": "feril-a5e52",
+    "storage_bucket": "feril-a5e52.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109329048669:android:1dc83d32995550f88c19b4",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArRahOAU3KE0t3uYB4fzbJXzZpTBBwBXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109329048669:android:712232cc144698328c19b4",
+        "android_client_info": {
+          "package_name": "com.example.urban_culture_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArRahOAU3KE0t3uYB4fzbJXzZpTBBwBXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

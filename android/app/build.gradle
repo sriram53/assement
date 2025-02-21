@@ -1,0 +1,41 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"  // ✅ Keep this at the end for Firebase
+}
+
+android {
+    namespace "com.example.urban_culture_app"
+    compileSdk 34  // ✅ Update to latest stable version
+
+    defaultConfig {
+        applicationId "com.example.urban_culture_app"
+        minSdk 23   // ✅ Ensure compatibility
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+            minifyEnabled true  // ✅ Enable code shrinking
+            shrinkResources true  // ✅ Enable resource shrinking
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+flutter {
+    source "../.."
+}
